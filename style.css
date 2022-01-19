@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(138, 102, 172);
+}
+
+header{
+    background-color: rgb(248, 202, 217);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.Logo:hover{
+    color: aqua;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.list li{
+    display: flex;
+}
+
+.list li a{
+    color: rgb(0, 0, 0);
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    margin-left: 40px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.list li a:hover{
+    background-color: aqua;
+    color: rgb(10, 10, 10);
+}
+
+.front{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fronttulisan{
+    color: rgb(64, 64, 121);
+    font-size: 70px;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.5s;
+}
+
+
+.fronttulisan:hover{
+    transform: scale(1.05);
+}
+
+.frontbiodata{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+}
+
+.welcome{
+    background-image: url(pp.jpg);
+    background-size: cover;
+    height: 91vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcometulisan{
+    color: rgb(197, 197, 241);
+    font-family: 'seculer One', sans-serif;
+    font-size: 75px;
+    transition: 0.5s;
+}
+
+.welcometulisan:hover{
+    transform: scale(1.07);
+}
+
+.kotak1{
+    background-color: rgb(189, 166, 211);
+    padding: 30px;
+    border-radius: 20px;
+    margin: 35px;
+}
+
+.videotulisan{
+    color: black;
+    font-family: 'seculer One', sans-serif;
+    font-size: 20px;
+    justify-content: center;
+
+}
+
+
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.video iframe{
+    height: 220px;
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+}
+
+.audiotulisan{
+    color: black;
+    font-family: 'seculer One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.music audio{
+    margin: 7px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 210, 210);
+    padding: 30px;
+}
+
+.penutup{
+    color: black;
+    font-family: 'seculer One', sans-serif;
+    font-size: 15px;
+}
